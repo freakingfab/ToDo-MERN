@@ -6,7 +6,7 @@ import Connection from './database/db.js';
 import Routes from './routes/route.js';
 
 const app = express()
-const port = 8000
+const port = env.PORT
 
 app.use(cors());
 
