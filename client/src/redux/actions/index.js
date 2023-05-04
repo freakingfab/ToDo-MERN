@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE_TAB } from './type';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://to-do-mern-f7gf-4zaptlw2y-freakingfab.vercel.app:8000';
 
 export const addNewTodo = (data) => async (dispatch) => {
     try {
